@@ -1,26 +1,46 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+# Authors
+Alex Kinuthia
+Brian Kiragu
+Cliff Gor
+Collins Mwiti
+Dickson Muli
+Minneh Mugo
+Philip Mutua
+Vivian Opondoh
+Yonko Kilasi
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
 
-## Getting Started
+# Description
+This is a Ground water information system.
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+# Github-link
+https://github.com/techh20.io/
 
-## Bugs and Issues
+# Contacts
+To find me, here is my account mwiticmutumamwenda@gmail.com
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
+# Code Example
+Kindly to access my codes clone the repository.
 
-## Creator
+# Motivation
+Our motivation was to build this project that would benefit an array of users about ground water resource and also stress on water issues.
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+# License
+The project is under license by MIT
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Prerequisites
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+You will need the following things properly installed on your computer.
 
-## Copyright and License
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/) (with NPM)
+* [Bower](https://bower.io/)
 
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/gh-pages/LICENSE) license.
+
+## Installation
+
+* `git clone <repository-url>` this repository
+* `cd project`
+* `npm install`
+* `bower install`
+
