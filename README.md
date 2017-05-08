@@ -6,7 +6,7 @@ Water Search Web App.
 https://github.com/techh20.io/
 
 ## Contacts
-To find me, here is my account mwiticmutumamwenda@gmail.com
+mwiticmutumamwenda@gmail.com
 
 ## Code Example
 Kindly to access my codes clone the repository.
