@@ -1,13 +1,13 @@
 # Authors
-Alex Kinuthia
-Brian Kiragu
-Cliff Gor
-Collins Mwiti
-Dickson Muli
-Minneh Mugo
-Philip Mutua
-Vivian Opondoh
-Yonko Kilasi
+*lex Kinuthia
+*Brian Kiragu
+*Cliff Gor
+*Collins Mwiti
+*Dickson Muli
+*Minneh Mugo
+*Philip Mutua
+*Vivian Opondoh
+*Yonko Kilasi
 
 
 # Description
