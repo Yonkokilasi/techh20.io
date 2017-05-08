@@ -1,5 +1,5 @@
 #Tech2o
-##Description
+## Description
 This is a Ground water information system.
 
 ## Github-link
@@ -14,7 +14,7 @@ Kindly to access my codes clone the repository.
 ## Motivation
 Our motivation was to build this project that would benefit an array of users about ground water resource and also stress on water issues.
 
-##License
+## License
 The project is under license by MIT
 
 ## Prerequisites
