@@ -1,6 +1,6 @@
 # Tech2o
 ## Description
-This is a Ground water information system.
+Water Search Web App.
 
 ## Github-link
 https://github.com/techh20.io/
