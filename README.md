@@ -1,31 +1,20 @@
-# Authors
- * lex Kinuthia
- * Brian Kiragu
- * Cliff Gor
- * Collins Mwiti
- * Dickson Muli
- * Minneh Mugo
- * Philip Mutua
- * Vivian Opondoh
- * Yonko Kilasi
-
-
-# Description
+#Tech2o
+##Description
 This is a Ground water information system.
 
-# Github-link
+## Github-link
 https://github.com/techh20.io/
 
-# Contacts
+## Contacts
 To find me, here is my account mwiticmutumamwenda@gmail.com
 
-# Code Example
+## Code Example
 Kindly to access my codes clone the repository.
 
-# Motivation
+## Motivation
 Our motivation was to build this project that would benefit an array of users about ground water resource and also stress on water issues.
 
-# License
+##License
 The project is under license by MIT
 
 ## Prerequisites
@@ -43,4 +32,15 @@ You will need the following things properly installed on your computer.
 * `cd project`
 * `npm install`
 * `bower install`
+
+## Authors
+ * lex Kinuthia
+ * Brian Kiragu
+ * Cliff Gor
+ * Collins Mwiti
+ * Dickson Muli
+ * Minneh Mugo
+ * Philip Mutua
+ * Vivian Opondoh
+ * Yonko Kilasi
 
