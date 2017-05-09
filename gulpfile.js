@@ -27,6 +27,15 @@ gulp.task('less', function() {
         }))
 });
 
+gulp.task('dev', [ 'less', 'minify-css', 'minify-js','serve'], function() {
+    gulp.watch('less/*.less', ['less']);
+    gulp.watch('css/*.css', ['minify-css']);
+    gulp.watch('js/*.js', ['minify-js']);
+    // Reloads the browser whenever HTML or JS files change
+    gulp.watch('*.html', browserSync.reload);
+    gulp.watch('js/**/*.js', browserSync.reload);
+});
+
 // Minify compiled CSS
 gulp.task('minify-css', ['less'], function() {
     return gulp.src('css/grayscale.css')
@@ -73,20 +82,13 @@ gulp.task('copy', function() {
 gulp.task('default', ['less', 'minify-css', 'minify-js', 'copy']);
 
 // Configure the browserSync task
-gulp.task('browserSync', function() {
+gulp.task('serve', function() {
     browserSync.init({
         server: {
-            baseDir: ''
-        },
+            baseDir: "./",
+            index: "index.html"
+        }
     })
-})
+    });
 
 // Dev task with browserSync
-gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() {
-    gulp.watch('less/*.less', ['less']);
-    gulp.watch('css/*.css', ['minify-css']);
-    gulp.watch('js/*.js', ['minify-js']);
-    // Reloads the browser whenever HTML or JS files change
-    gulp.watch('*.html', browserSync.reload);
-    gulp.watch('js/**/*.js', browserSync.reload);
-});

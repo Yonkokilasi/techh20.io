@@ -1,9 +1,12 @@
 /*!
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
+#ab {
+  font-family: Montserrat;
+  font-size: 30px;
+}
 body {
   width: 100%;
   height: 100%;
@@ -11,26 +14,27 @@ body {
   color: white;
   background-color: black;
 }
-
 html {
   width: 100%;
   height: 100%;
 }
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
-
 p {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5;
 }
-
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
@@ -38,23 +42,20 @@ p {
     line-height: 1.6;
   }
 }
-
 a {
   color: #42DCA3;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   color: #1d9b6c;
 }
-
 .light {
   font-weight: 400;
 }
-
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -62,58 +63,48 @@ a:hover, a:focus {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
 }
-
 .navbar-custom .navbar-toggle {
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
-
-.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
   outline: none;
 }
-
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
-
 .navbar-custom .navbar-brand:focus {
   outline: none;
 }
-
 .navbar-custom a {
   color: white;
 }
-
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
-
 .navbar-custom .nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
   background-color: transparent;
 }
-
-.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
   outline: none;
   background-color: transparent;
 }
-
 .navbar-custom .nav li.active {
   outline: none;
 }
-
 .navbar-custom .nav li.active a {
   background-color: rgba(255, 255, 255, 0.3);
 }
-
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
-
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -130,7 +121,6 @@ a:hover, a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
-
 .intro {
   display: table;
   width: 100%;
@@ -145,20 +135,16 @@ a:hover, a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
-
 .intro .intro-body .brand-heading {
   font-size: 40px;
 }
-
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
-
 @media (min-width: 768px) {
   .intro {
     height: 100%;
@@ -171,7 +157,6 @@ a:hover, a:focus {
     font-size: 26px;
   }
 }
-
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -186,20 +171,18 @@ a:hover, a:focus {
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
-
-.btn-circle:hover, .btn-circle:focus {
+.btn-circle:hover,
+.btn-circle:focus {
   outline: none;
   color: white;
   background: rgba(255, 255, 255, 0.1);
 }
-
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
   -webkit-transition-duration: 1s;
   -moz-transition-property: -moz-transform;
   -moz-transition-duration: 1s;
 }
-
 .btn-circle:hover i.animated {
   -webkit-animation-name: pulse;
   -moz-animation-name: pulse;
@@ -210,7 +193,6 @@ a:hover, a:focus {
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
 }
-
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
@@ -225,7 +207,6 @@ a:hover, a:focus {
     transform: scale(1);
   }
 }
-
 @-moz-keyframes pulse {
   0% {
     -moz-transform: scale(1);
@@ -240,14 +221,11 @@ a:hover, a:focus {
     transform: scale(1);
   }
 }
-
 .content-section {
   padding-top: 100px;
 }
-
 .download-section {
-  width: 100vw;
-  height: 80vh;
+  width: 100%;
   padding: 50px 0;
   color: white;
   background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
@@ -257,13 +235,11 @@ a:hover, a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-
 #map {
   width: 100%;
   height: 200px;
   margin-top: 100px;
 }
-
 @media (min-width: 767px) {
   .content-section {
     padding-top: 250px;
@@ -276,7 +252,6 @@ a:hover, a:focus {
     margin-top: 250px;
   }
 }
-
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -286,30 +261,26 @@ a:hover, a:focus {
   transition: all 0.3s ease-in-out;
   border-radius: 0;
 }
-
 .btn-default {
   border: 1px solid #42DCA3;
   color: #42DCA3;
   background-color: transparent;
 }
-
-.btn-default:hover, .btn-default:focus {
+.btn-default:hover,
+.btn-default:focus {
   border: 1px solid #42DCA3;
   outline: none;
   color: black;
   background-color: #42DCA3;
 }
-
 ul.banner-social-buttons {
   margin-top: 0;
 }
-
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
     margin-top: 15px;
   }
 }
-
 @media (max-width: 767px) {
   ul.banner-social-buttons li {
     display: block;
@@ -320,35 +291,28 @@ ul.banner-social-buttons {
     margin-bottom: 0;
   }
 }
-
 footer {
   padding: 50px 0;
 }
-
 footer p {
   margin: 0;
 }
-
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
 }
-
 ::selection {
   text-shadow: none;
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
 }
-
 img::selection {
   background: transparent;
 }
-
 img::-moz-selection {
   background: transparent;
 }
-
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
